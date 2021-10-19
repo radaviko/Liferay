@@ -1,8 +1,8 @@
 name: liferay
-namespace: temp 
+namespace: raliferaytesting 
 replicaCount: 1
 image:
-  repository: dfreese.azurecr.io/liferay/liferay
+  repository: excellcloudregistry.azurecr.io/liferaypoc/liferay
   pullPolicy: IfNotPresent
   tag: "latest"
 
