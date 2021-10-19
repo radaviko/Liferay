@@ -30,5 +30,5 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: 'helm upgrade liferay-poc $(Build.SourcesDirectory)/openshift/helm-liferay -f $(Build.SourcesDirectory)/openshift/helm-liferay/values.yaml'
+    script: 'helm install liferay-poc $(Build.SourcesDirectory)/openshift/helm-liferay -f $(Build.SourcesDirectory)/openshift/helm-liferay/values.yaml'
 
